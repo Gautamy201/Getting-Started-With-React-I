@@ -1,0 +1,47 @@
+1 . What is React?.
+
+->  React is a JavaScript library created by Facebook
+React is a User Interface (UI) library
+React is a tool for building UI components
+
+1 . Who made React?
+
+->  React was created by Jordan Walke, a        software engineer at Meta, who released an early prototype of React called "FaxJS". He was influenced by XHP, an HTML component library for PHP. It was first deployed on Facebook's News Feed in 2011 and later on Instagram in 2012.
+
+1 . What is Babel?
+
+->  When it comes to React, Babel is used to transpile modern JavaScript syntax into code that can run in all environments when writing React components. This allows developers to use the latest language features when writing React components and ensures compatibility with older browsers.
+
+Babel in react is a crucial tool for React developers because it allows them to write code using the latest syntax and features while still ensuring that their code is compatible with all environments. This is particularly important because not all browsers support the latest JavaScript syntax, which could cause compatibility issues if developers tried to write React components using the latest syntax.
+
+1 . How does Babel convert html code in React into valid code?
+
+->  Babel is a key tool that can translate JSX syntax, which is used to create HTML-like code in React components, into valid JavaScript code that can be executed in preferred browsers. By converting the JSX code into JavaScript functions that return the same HTML-like structures.
+
+1 . What is ReactDOM used for? Write an example?
+
+->  React introduces the concept of virtualDOM, which functions as a lightweight replica of the real DOM. Therefore, there is one object in React Virtual DOM for every object that is present in the real DOM. Although it is identical, it is unable to alter the document's design in any way.
+
+DOM manipulation takes time, but virtual DOM manipulation happens quickly because nothing is getting fetched on the screen. As a result, the virtual DOM rather than the real DOM is updated first whenever the state of our application changes, which improves the performance big time.
+
+1 . What are the packages that you need to import for react to work with?
+
+->  We will use npx, a package runner tool that comes with npm 5.2+ and higher,
+
+1 . How do you add react to a web application?
+
+->  Build the React part of your app using one of the React-based frameworks.
+Specify /some-app as the base path in your framework's configuration (Next.js, Gatsby).
+Configure your server or a proxy so that all requests under /some-app/ are handled by your React app.
+
+1 . What is React.createElement?
+
+->  createElement is a fundamental method of React JS. The main use of React. createElement is the Creation of a React component. It is the JavaScript format for creating react components. Also, the JSX react component when transpired invokes this only method for creating the component
+
+1 . What are the three properties that createElement accept?
+
+->  createElement() function takes three arguments: type , props , and children . And returns an object just like the one above.
+
+1 . What is the meaning of render and root?
+
+->  React renders HTML to the web page by using a function called render(). The purpose of the function is to display the specified HTML code inside the specified HTML element. In the render() method, we can read props and state and return our JSX code to the root component of our app.
